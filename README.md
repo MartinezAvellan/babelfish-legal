@@ -1,2 +1,9 @@
-# babelfish-legal
-Legal pages for Babel Fish iOS app.
+# Babel Fish Legal
+
+Legal and support pages for the Babel Fish iOS app.
+
+Pages:
+
+- Privacy Policy
+- Support
+- Landing Page
