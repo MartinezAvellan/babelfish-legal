@@ -41,7 +41,10 @@
       </p>
     </div>
     <p>
-      <strong>Always review and verify AI-generated content before using it.</strong>
+      <strong>AI-generated outputs may be incomplete, inaccurate, misleading, offensive,
+      biased, or incorrect. Users must independently review all generated content before use.</strong>
+    </p>
+    <p>
       Do not rely on AI outputs without human verification, especially for important
       communications, official documents, or situations where accuracy is critical.
     </p>
@@ -189,8 +192,9 @@
         <a href="ai-disclaimer.html">AI Disclaimer</a>
         <a href="support.html">Support</a>
       </div>
-      <p class="footer-copyright">Babel Fish. All rights reserved.</p>
+      <p class="footer-copyright">&copy; <span id="year"></span> Babel Fish</p>
     </div>
   </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
